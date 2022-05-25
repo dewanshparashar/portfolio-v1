@@ -1,10 +1,10 @@
 ---
-date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
-location: 'Boston, MA'
-range: 'July - December 2016'
-url: 'https://starry.com/'
+date: '2016-7-21'
+title: 'Senior UI Developer'
+company: 'LogiNext'
+location: 'Mumbai, India'
+range: 'July 2016 - October 2020'
+url: 'https://loginextsolutions.com/'
 ---
 
 - Engineered and maintained major features of Starry's customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS

@@ -1,9 +1,9 @@
 ---
-date: '2017-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - June 2017'
+date: '2022-02-01'
+title: 'Open Source Contributor'
+company: 'Shardeum'
+location: 'Remote'
+range: 'Feb 2022 - June 2022'
 url: 'https://web.northeastern.edu/scout/'
 ---
 

@@ -1,10 +1,10 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2022-06-01'
+title: 'Software Development Engineer 4'
+company: 'WazirX'
+location: 'Remote'
+range: 'May 2021 - Present'
+url: 'https://www.wazirx.com'
 ---
 
 - Developed and shipped highly interactive web applications for Apple Music using Ember.js
