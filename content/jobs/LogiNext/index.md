@@ -4,7 +4,7 @@ title: 'Senior UI Developer'
 company: 'LogiNext'
 location: 'Mumbai, India'
 range: 'July 2016 - October 2020'
-url: 'https://loginextsolutions.com/'
+url: 'https://www.loginextsolutions.com'
 ---
 
 - Engineered and maintained major features of Starry's customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS

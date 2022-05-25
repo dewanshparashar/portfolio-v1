@@ -4,7 +4,7 @@ title: 'Open Source Contributor'
 company: 'Shardeum'
 location: 'Remote'
 range: 'Feb 2022 - June 2022'
-url: 'https://web.northeastern.edu/scout/'
+url: 'https://shardeum.org/'
 ---
 
 - Collaborated with a small team of student designers to spearhead a new brand and design system for Scout’s inaugural student-led design conference at Northeastern
