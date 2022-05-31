@@ -59,18 +59,19 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Dewansh Parashar.</h2>;
+  const two = <h2 className="big-heading">Dewansh.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://wazirx.com/" target="_blank" rel="noreferrer">
+        I’m a software engineer with over 8 years of work experience, specializing in building
+        exceptional user experiences on web.
+        <br />
+        Currently, I’m focused on working at{' '}
+        <a href="https://wazirx.com/exchange" target="_blank" rel="noreferrer">
           WazirX
         </a>
-        .
+        , making cryptocurrencies accessible to our 10 million+ users.
       </p>
     </>
   );

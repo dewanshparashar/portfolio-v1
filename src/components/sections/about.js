@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['React', 'Vue', 'JavaScript (ES6+)', 'TypeScript', 'Node.js'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,33 +136,40 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Dewansh and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I am passionate about well engineered, and pixel-perfect products. My goal with every
+              project is to make it the best functioning as well as the best looking in the given
+              set of constraints.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Throughout my career, I’ve had the privilege of building an{' '}
+              <a target="_blank" rel="noreferrer" href="https://ziveg.com/">
+                e-commerce
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              product from scratch, solving scale for{' '}
+              <a target="_blank" rel="noreferrer" href="https://loginextsolutions.com/">
+                real-time logistics,
+              </a>{' '}
+              developing in an{' '}
+              <a target="_blank" rel="noreferrer" href="https://www.shardeum.com/">
+                open source environment,
+              </a>{' '}
+              and building a{' '}
+              <a target="_blank" rel="noreferrer" href="https://wazirx.com">
+                cryptocurrency exchange
+              </a>{' '}
+              loved by millions.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              Recently, I also{' '}
+              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
+                built a product of my own,
+              </a>{' '}
+              that tries to imbibe a sense of discipline in distracted and forgetful individuals.
+            </p>
+
+            <p>Here are a few technologies I am comfortable with:</p>
           </div>
 
           <ul className="skills-list">
