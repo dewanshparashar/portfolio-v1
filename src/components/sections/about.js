@@ -154,7 +154,7 @@ const About = () => {
               <a target="_blank" rel="noreferrer" href="https://www.shardeum.com/">
                 open source environment,
               </a>{' '}
-              and building a{' '}
+              and working at a{' '}
               <a target="_blank" rel="noreferrer" href="https://wazirx.com">
                 cryptocurrency exchange
               </a>{' '}
