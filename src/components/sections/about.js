@@ -82,7 +82,7 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
+      /* mix-blend-mode: multiply; */
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
@@ -126,7 +126,13 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['React', 'Vue', 'JavaScript (ES6+)', 'TypeScript', 'Node.js'];
+  const skills = [
+    'React, Redux',
+    'NextJs, Vue',
+    'JavaScript (ES6+), TypeScript',
+    'Firebase, Docker, AWS, Heroku, Netlify',
+    'Ionic, Capacitor, Cordova',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -161,13 +167,13 @@ const About = () => {
               loved by millions.
             </p>
 
-            <p>
+            {/* <p>
               Recently, I also{' '}
               <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
                 built a product of my own,
               </a>{' '}
               that tries to imbibe a sense of discipline in distracted and forgetful individuals.
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I am comfortable with:</p>
           </div>
@@ -181,7 +187,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

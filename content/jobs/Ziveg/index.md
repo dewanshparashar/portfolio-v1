@@ -1,6 +1,6 @@
 ---
 date: '2014-7-21'
-title: 'Co-Founder, Web Lead'
+title: 'Founding Team + Web Lead'
 company: 'Ziveg'
 location: 'New Delhi, India'
 range: 'July 2014 - June 2016'

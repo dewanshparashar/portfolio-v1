@@ -64,7 +64,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer with over 8 years of work experience, specializing in building
+        I’m a software engineer with over 7 years of work experience, specializing in building
         exceptional user experiences on web.
         <br />
         Currently, I’m focused on working at{' '}
@@ -78,10 +78,10 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://www.linkedin.com/in/dewanshparashar/"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Let's connect!
     </a>
   );
 
