@@ -40,6 +40,11 @@ const StyledHeroSection = styled.section`
     max-width: 540px;
   }
 
+  .contact-links {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
@@ -83,7 +88,7 @@ const Hero = () => {
     </>
   );
   const five = (
-    <>
+    <div className="contact-links">
       <a className="email-link" href={`mailto:${email}`} target="_blank" rel="noreferrer">
         <Icon name="Email" /> Let's connect
       </a>
@@ -101,7 +106,7 @@ const Hero = () => {
         rel="noreferrer">
         <Icon name="Twitter" />
       </a>
-    </>
+    </div>
   );
 
   const items = [one, two, three, four, five];

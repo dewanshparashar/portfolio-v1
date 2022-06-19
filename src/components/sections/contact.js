@@ -36,6 +36,12 @@ const StyledContactSection = styled.section`
     font-size: clamp(40px, 5vw, 60px);
   }
 
+  .contact-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
@@ -71,24 +77,26 @@ const Contact = () => {
         you!
       </p>
 
-      <a className="email-link" href={`mailto:${email}`} target="_blank" rel="noreferrer">
-        <Icon name="Email" /> Say Hello
-      </a>
+      <div className="contact-links">
+        <a className="email-link" href={`mailto:${email}`} target="_blank" rel="noreferrer">
+          <Icon name="Email" /> Say Hello
+        </a>
 
-      <a
-        className="email-link"
-        href="https://www.linkedin.com/in/dewanshparashar/"
-        target="_blank"
-        rel="noreferrer">
-        <Icon name="Linkedin" />
-      </a>
-      <a
-        className="email-link"
-        href="https://www.twitter.com/dewanshparashar/"
-        target="_blank"
-        rel="noreferrer">
-        <Icon name="Twitter" />
-      </a>
+        <a
+          className="email-link"
+          href="https://www.linkedin.com/in/dewanshparashar/"
+          target="_blank"
+          rel="noreferrer">
+          <Icon name="Linkedin" />
+        </a>
+        <a
+          className="email-link"
+          href="https://www.twitter.com/dewanshparashar/"
+          target="_blank"
+          rel="noreferrer">
+          <Icon name="Twitter" />
+        </a>
+      </div>
     </StyledContactSection>
   );
 };
