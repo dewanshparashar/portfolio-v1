@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+import { Icon } from '@components/icons';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -38,6 +39,11 @@ const StyledContactSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
+    margin-right: 15px;
+    svg {
+      height: 15px;
+      width: 15px;
+    }
   }
 `;
 
@@ -60,12 +66,28 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        My inbox is always open. Whether you have a question or just want to say hi, I’ll try my
-        best to get back to you!
+        I am fairly active on LinkedIn and Twitter. My inbox is always open. Whether you have an
+        idea, an opportunity, a question or just want to say hi, I’ll try my best to get back to
+        you!
       </p>
 
-      <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+      <a className="email-link" href={`mailto:${email}`} target="_blank" rel="noreferrer">
+        <Icon name="Email" /> Say Hello
+      </a>
+
+      <a
+        className="email-link"
+        href="https://www.linkedin.com/in/dewanshparashar/"
+        target="_blank"
+        rel="noreferrer">
+        <Icon name="Linkedin" />
+      </a>
+      <a
+        className="email-link"
+        href="https://www.twitter.com/dewanshparashar/"
+        target="_blank"
+        rel="noreferrer">
+        <Icon name="Twitter" />
       </a>
     </StyledContactSection>
   );

@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
+import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-// import { email } from '@config';
+import { Icon } from '@components/icons';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -42,6 +43,12 @@ const StyledHeroSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
+
+    margin-right: 15px;
+    svg {
+      height: 15px;
+      width: 15px;
+    }
   }
 `;
 
@@ -76,13 +83,25 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.linkedin.com/in/dewanshparashar/"
-      target="_blank"
-      rel="noreferrer">
-      Let's connect!
-    </a>
+    <>
+      <a className="email-link" href={`mailto:${email}`} target="_blank" rel="noreferrer">
+        <Icon name="Email" /> Let's connect
+      </a>
+      <a
+        className="email-link"
+        href="https://www.linkedin.com/in/dewanshparashar/"
+        target="_blank"
+        rel="noreferrer">
+        <Icon name="Linkedin" />
+      </a>
+      <a
+        className="email-link"
+        href="https://www.twitter.com/dewanshparashar/"
+        target="_blank"
+        rel="noreferrer">
+        <Icon name="Twitter" />
+      </a>
+    </>
   );
 
   const items = [one, two, three, four, five];
