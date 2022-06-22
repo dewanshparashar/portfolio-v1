@@ -115,7 +115,8 @@ const mixins = {
     background-color: transparent;
     border: 1px solid var(--green);
     border-radius: var(--border-radius);
-    padding: 1.25rem 1.75rem;
+    padding: 1rem;
+    white-space: nowrap;
     font-size: var(--fz-sm);
     font-family: var(--font-mono);
     line-height: 1;

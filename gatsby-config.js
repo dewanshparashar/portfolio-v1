@@ -5,7 +5,7 @@ module.exports = {
     title: 'Dewansh Parashar',
     description:
       'Dewansh Parashar is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://dewansh.vercel.app', // No trailing slash allowed!
+    siteUrl: 'https://dewansh.xyz', // No trailing slash allowed!
     image: '/og_1.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@dewanshparashar',
   },
@@ -150,9 +150,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingIds: [
+          'G-C9J9PWF0C4', // Google Analytics / GA
+        ],
       },
     },
   ],
