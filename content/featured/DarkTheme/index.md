@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'WazirX Dark Knight'
 cover: './demo.png'
 external: 'https://wazirx.com/exchange/BTC-INR'

@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'Shardeum.org'
 cover: './demo.png'
 github: 'https://github.com/Shardeum/shardeum-website'
