@@ -80,10 +80,10 @@ const Hero = () => {
         exceptional user experiences on web.
         <br />
         Currently, I’m focused on working at{' '}
-        <a href="https://wazirx.com/exchange" target="_blank" rel="noreferrer">
-          WazirX
+        <a href="https://bridge.arbitrum.io/" target="_blank" rel="noreferrer">
+          Arbitrum
         </a>
-        , making cryptocurrencies accessible to our 10 million+ users.
+        , a Layer 2 scaling solution for Ethereum.
       </p>
     </>
   );

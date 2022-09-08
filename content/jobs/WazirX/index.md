@@ -3,7 +3,7 @@ date: '2022-06-01'
 title: 'Software Development Engineer 4'
 company: 'WazirX'
 location: 'Remote'
-range: 'May 2021 - Present'
+range: 'May 2021 - September 2022'
 url: 'https://www.wazirx.com'
 ---
 
